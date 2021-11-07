@@ -1,0 +1,56 @@
+h1 {
+  color: rgb(32, 116, 165);
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 40px;
+  padding: 0 auto;
+  margin: 0 auto;
+}
+h6 {
+  color: rgb(26, 60, 80);
+  font-family: "Roboto", sans-serif;
+  font-weight: thin;
+  text-align: center;
+  font-size: 10px;
+  padding: 0 auto;
+  margin: 0 auto;
+}
+.current {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+.low {
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+  font-size: 30px;
+}
+.emoji {
+  font-size: 70px;
+}
+
+.high {
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+  font-size: 30px;
+}
+.currentTemp {
+  font-family: "Roboto", sans-serif;
+  font-weight: thin;
+  font-size: 25px;
+}
+.hours {
+  font-family: "Roboto", sans-serif;
+  font-weight: thin;
+  font-size: 15px;
+}
+.days {
+  font-family: "Roboto", sans-serif;
+  font-weight: thin;
+  font-size: 15px;
+}
+.entercity {
+  display: block;
+  margin: 0 auto;
+}
