@@ -20,31 +20,34 @@ h6 {
 .weather-app-wrapper {
 max-width: 600px;
   margin: 30px auto;  
-}.weather-app {
-  
+}
+
+.weather-app {
   padding: 20px;
   border: 1px solid #dadde1;
-  border-radius: 50x;
+  border-radius: 5px;
 }
 
 .current {
   display: block;
   margin: 0 auto;
+  padding: 0 auto;
   text-align: center;
-}
-.low {
-  font-family: "Roboto", sans-serif;
-  font-weight: bolder;
-  font-size: 30px;
-}
-.emoji {
-  font-size: 70px;
+  font-size: 40px;
 }
 
-.high {
+.current .units {
+  position: relative;
+  font-size: 16px;
+  top: -15px;
+
+}
+.currentHighLow {
+  text-align: center;
   font-family: "Roboto", sans-serif;
-  font-weight: bolder;
-  font-size: 30px;
+  color: #dadde1;
+  font: 15px;
+  font-weight: lighter;
 }
 .currentTemp {
   font-family: "Roboto", sans-serif;
