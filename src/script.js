@@ -21,10 +21,11 @@ function formatDate(date) {
 }
 
 function showTemperature(response) {
-  document.querySelector("#city").innerHTML = response.data.name;
-  document.querySelector("#temperature").innerHTML = Math.round(
-    response.data.main.temp
-  );
+  console.log (response.data); 
+  let temperatureElement = document.querySelector("#temperature");
+  let cityElement = document.querySelector("#city");
+  temperatureElement.innerHTML= Math.round(response.data.main.temp);
+  cityElement.innerHTML = response.data.name;
 }
 
 function searchCity(city) {
