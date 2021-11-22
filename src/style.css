@@ -1,11 +1,12 @@
 body {
   font-family: "Roboto", sans-serif;
+  text-align: center;
 }
 h1 {
   color: #b2b4b8;
   font-weight: thin;
   text-align: center;
-  font-size: 25px;
+  font-size: 30px;
   padding: 0 auto;
   margin: 0 auto;
 }
@@ -13,13 +14,24 @@ h6 {
   color: #4c4d50;
   font-weight: thin;
   text-align: center;
-  font-size: 10px;
+  font-size: 15px;
   padding: 0 auto;
   margin: 0 auto;
+}
+
+img {
+  vertical-align: bottom;
+  width: 80px;
+}
+strong {
+  font-size: 50px;
+  text-align: center;
+  margin: 10px 0;
 }
 ul {
   margin: 0;
   padding: 0;
+  text-align: left;
 }
 
 li {
@@ -28,7 +40,7 @@ li {
   padding: 0;
 
   color: rgb(135, 135, 135);
-  font-size: 10px;
+  font-size: 11px;
   font-weight: 100;
   line-height: 10px;
 }
@@ -46,6 +58,7 @@ max-width: 600px;
   border-radius: 5px;
 }
 
+
 .current {
   display: block;
   margin: 0 auto;
@@ -56,16 +69,17 @@ max-width: 600px;
 
 .current .units {
   position: relative;
-  font-size: 16px;
-  top: -15px;
-
+  font-size: 14px;
+  vertical-align: 40px;
 }
+
+
 .currentHighLow {
   text-align: center;
   font-family: "Roboto", sans-serif;
-  color: #dadde1;
+  color: #b2b4b8;
   font: 15px;
-  font-weight: lighter;
+  font-weight:bold;
 }
 .currentTemp {
   font-family: "Roboto", sans-serif;
@@ -98,7 +112,7 @@ max-width: 600px;
   
 
 }
-.weather-forecast-temp-low {
+.weather-forecast-temp-min {
 opacity: 0.6;
 }
 .weather-forecast-temp {
